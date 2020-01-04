@@ -1,0 +1,30 @@
+-> jQuery
+- helps js code behave similarly in various browsers
+- library built using JS
+- popular, lightweight
+- helps in dynamic webpage creations
+- helps in creating animated pages like flash
+
+-> DOCTYPE - informs browser the type of (X)HTML being used in the webpage
+- key component of compliant web pages - market 
+
+$ - jQuery function
+$ = {}
+$.a = 3
+$a - {a:3}
+jQuery object	- length
+		- context
+		- selector
+
+- CDN - content delivery network 
+
+- $(document).ready(function{
+	console.log("Doc ready");	// will execute only after the browser completes parsing upto </html>
+	$(#ready).text("ready"); 	// put text on div id
+	$(#ready).text("ready"),css('color':'red').css('font-weight':'blue'); 	// chaining
+});
+
+$(function(){
+	$(.class).style(....);
+
+})
